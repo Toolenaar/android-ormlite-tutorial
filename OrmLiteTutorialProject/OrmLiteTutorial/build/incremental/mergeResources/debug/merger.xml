@@ -96,6 +96,11 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="comment_list_item"
+                path="C:\Users\alienware18\Source\Repos\Github\android-ormlite-tutorial\OrmLiteTutorialProject\OrmLiteTutorial\src\main\res\layout\comment_list_item.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="C:\Users\alienware18\Source\Repos\Github\android-ormlite-tutorial\OrmLiteTutorialProject\OrmLiteTutorial\build\res\rs\debug" />
     </dataSet>
