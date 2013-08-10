@@ -4,7 +4,6 @@ import android.content.Context;
 
 import com.j256.ormlite.android.apptools.OpenHelperManager;
 
-import jtms.tutorial.ormLiteTutorial.Data.DatabaseHelper;
 
 /**
  * Created by alienware18 on 9-8-13.

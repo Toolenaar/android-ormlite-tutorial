@@ -62,21 +62,7 @@ public class CommentsRepository {
         }
         return 0;
     }
-    public Comment getByUsername(String username)
-    {
-        try {
-            QueryBuilder<Comment, Integer> qb = commentsDao.queryBuilder();
 
-            qb.where().eq("username", username);
-
-            PreparedQuery<Comment> pq = qb.prepare();
-            return commentsDao.queryForFirst(pq);
-        } catch (SQLException e) {
-            // TODO: Exception Handling
-            e.printStackTrace();
-        }
-        return null;
-    }
     public List<Comment> getAll()
     {
         try {
@@ -87,6 +73,4 @@ public class CommentsRepository {
         }
         return null;
     }
-
-
 }
